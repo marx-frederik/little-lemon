@@ -1,0 +1,18 @@
+.specials{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    gap:1rem;
+    padding:3rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.specials-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.specials-section{
+    margin-top: 8rem;
+}
+

@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Markazi Text', serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: #000;
+    margin-right: 15px;
+  }
+  
+  nav a:hover {
+    color: #c4c4c4;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-primary {
+    background-color: #F4CE14 !important;
+    font-family: 'Karla', sans-serif;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    background-color: #fae371 !important;
+}

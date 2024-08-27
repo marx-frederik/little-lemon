@@ -1,0 +1,9 @@
+.card{
+    background-color: rgb(223, 223, 223);
+}
+
+.titlebox{
+    display:flex;
+    justify-content: space-between;
+}
+

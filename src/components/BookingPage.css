@@ -1,0 +1,6 @@
+/*style="display: grid; max-width: 200px; gap: 20px"*/
+.reservation-section{
+    display: flex;
+    justify-content: center;
+
+}

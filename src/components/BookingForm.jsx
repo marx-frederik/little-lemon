@@ -21,7 +21,6 @@ const BookingForm = ({ availableTimes, dispatch, onSubmit }) => {
     const times = fetchAPI(date);
     dispatch({ type: "SET_TIMES", payload: times });
     formik.setFieldValue('date', e.target.value);
-    
   };
 
   return (

@@ -1,5 +1,4 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import {act} from 'react';
 import BookingForm from './components/BookingForm';
 import { initializeTimes, updateTimes } from './components/BookingPage.jsx';
 
@@ -56,7 +55,7 @@ describe('BookingForm Validation', () => {
     // Klicken Sie auf den Senden-Button, um das Formular zu übermitteln
 
     fireEvent.click(screen.getByRole('button', { name: /Make Your Reservation/i }));
- 
+
     // Überprüfen, ob die Validierungsfehlermeldungen angezeigt werden
     expect(await screen.findByText(/Please choose a date./i)).toBeInTheDocument();
     expect(await screen.findByText(/Please choose a time./i)).toBeInTheDocument();

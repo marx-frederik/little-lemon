@@ -1,0 +1,5 @@
+.error-message {
+    color: red;
+    font-size: 0.875em; /* Optional: Anpassen der Schriftgröße */
+    margin-top: 4px; /* Optional: Ein kleiner Abstand zwischen dem Feld und der Fehlermeldung */
+  }
